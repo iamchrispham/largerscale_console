@@ -1,0 +1,83 @@
+.header {
+  border-bottom: 0;
+  padding-bottom: 0;
+  h5 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 25px;
+  }
+}
+.title {
+  font-size: 22px;
+  font-weight: 300;
+  margin-left: 25px;
+}
+.footer {
+  border-top: 0;
+  background: #e8e9eb;
+  margin-top: 20px;
+}
+.domeCamContainer {
+  width: 255px;
+  height: 255px;
+  margin: 0 auto;
+  margin-top: 118px;
+}
+.dropdown {
+  display: inline-block;
+  margin-left: 10px;
+}
+.btn {
+  background-color: #01d39a;
+  border-color: #01d39a;
+  width: 150px;
+  line-height: 2rem;
+}
+.btnLeft {
+  justify-content: flex-start;
+}
+.pl0 {
+  padding-left: 0;
+}
+.mt {
+  margin-top: 20px;
+}
+.markers {
+  margin-top: 290px;
+}
+.aoiForm {
+  input[type='text'] {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+.heading {
+  font-size: 16px;
+  font-weight: 300;
+}
+.dragDrop {
+  border: 2px dashed #ebebeb;
+  max-width: 355px;
+  height: 250px;
+  margin: 18px;
+  text-align: center;
+}
+.dropText {
+  font-size: 1rem;
+  color: #ebebeb;
+}
+.icon {
+  color: #ebebeb;
+}
+.dragDropIcon {
+  height: 100%;
+}
+.dragContent {
+  padding-top: 75px;
+}
+.upload {
+  width: 100%;
+}

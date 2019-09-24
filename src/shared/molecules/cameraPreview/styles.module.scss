@@ -1,0 +1,45 @@
+.cameraCard {
+  background: #fff;
+  box-shadow: 2px 5px 10px #ededed;
+  border: 0;
+  height: 150px;
+  position: relative;
+}
+
+.activeIcon {
+  font-size: 8px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.cameraCardBody {
+  text-align: center;
+  padding: 23px 10px;
+}
+
+.cameraCardFooter {
+  border-top: 1px solid #d3d3d36b;
+  padding: 2px 10px 0;
+  font-size: 12px;
+
+  img {
+    width: 32px;
+    float: right;
+  }
+}
+
+.icon {
+  font-size: 5rem;
+  color: darkgrey;
+}
+
+.editButton {
+  color: #2577f3;
+  transition: transform 250ms, color 500ms;
+
+  &:hover {
+    color: #1359c3;
+    transform: rotate(-20deg);
+  }
+}

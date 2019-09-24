@@ -1,0 +1,31 @@
+.cameraCard {
+  background: #fff;
+  box-shadow: 2px 5px 10px #ededed;
+  border: 0;
+  height: 150px;
+  transition: all 250ms;
+
+  svg {
+    transition: color 500ms;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    svg { color: grey; }
+  }
+}
+
+.cameraCardBody {
+  text-align: center;
+  padding: 35px 10px;
+}
+
+.cameraCardFooter {
+  border-top: 1px solid #d3d3d36b;
+  padding: 2px 10px 0;
+}
+
+.icon {
+  font-size: 5rem;
+  color: #e5e5e5;
+}
